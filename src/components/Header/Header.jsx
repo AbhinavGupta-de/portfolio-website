@@ -50,7 +50,7 @@ const Header = () => {
 				</button>
 			</div>
 			{isMenuOpen ? (
-				<div className="fixed top-10 z-10 h-full bg-[#282c33] w-4/5 p-5 mb-5">
+				<div className="fixed top-10 z-10 h-full bg-[#282c33] w-full p-5 mb-5">
 					<nav className="flex flex-col justify-center items-start gap-4">
 						<Link to="/">
 							<span className="text-[#27ae60]">#</span>
