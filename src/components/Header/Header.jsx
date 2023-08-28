@@ -4,7 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import Logo from '../../assets/images/logo.png';
+import Logo from '../../assets/images/Logo.png';
 
 // TODO - Make the header responsive
 // TODO - Add a dropdown kind of button to make it responsive
