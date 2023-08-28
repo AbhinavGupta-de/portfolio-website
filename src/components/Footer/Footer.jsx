@@ -16,7 +16,7 @@ const Footer = () => {
 				</div>
 
 				{/* Media Links */}
-				<div className="flex flex-col xsm:mt-5 md:mt-10">
+				<div className="flex flex-col xsm:mt-5 md:mt-10 xsm:justify-center xsm:items-center">
 					<div>Media</div>
 					<div className="flex md:justify-between gap-2">
 						<a href="https://www.linkedin.com/in/abhinav-gupta-a6422026b">
@@ -31,7 +31,11 @@ const Footer = () => {
 
 			{/* Last line */}
 			<div className="mt-5 flex items-center justify-center text-[#9fa5b2]">
-				<CopyrightIcon /> Mady by Abhinav
+				<p>
+					<CopyrightIcon />
+					{` `}
+					Made by Abhinav
+				</p>
 			</div>
 		</div>
 	);

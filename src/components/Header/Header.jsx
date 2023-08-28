@@ -69,7 +69,7 @@ const Header = () => {
 							Contact
 						</Link>
 					</nav>
-					<div className="flex justify-center items-center gap-4 mt-5">
+					<div className="flex justify-center items-center gap-4 mt-5 xsm:w-3/4 ">
 						<a href="https://github.com/AbhinavGupta-de">
 							<GitHubIcon fontSize="large" />
 						</a>

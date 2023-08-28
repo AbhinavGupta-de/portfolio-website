@@ -10,25 +10,25 @@ const Contact = () => {
 				</h1>
 				<hr className="w-1/5 border-[1.5px] border-solid border-[#27ae60] mt-[8px]"></hr>
 			</div>
-			<div className="flex md:flex-row xsm:flex-col gap-5 mt-5 p-5">
-				<div className="md:w-3/5">
-					<div className="text-[#6f7580] text-[15px]">
+			<div className="flex md:flex-row xsm:flex-col gap-5 mt-5 p-5 justify-between">
+				<div className="md:w-2/5">
+					<div className="text-[#bbbdc0] text-[16px]">
 						{`I'm interested in internship or remote job opportunities(including
 				freelancing) and would love to hear from you!`}
 						<br></br>
 					</div>
 
-					<div className="text-[#6f7580] xsm:mt-5">
+					<div className="text-[#bbbdc0] mt-5">
 						{`However, if you have other
 				requests or questions, don't hesitate to contact me!`}
 					</div>
 				</div>
 
-				<div className="flex flex-col items-center w-full gap-3">
+				<div className="flex flex-col items-center  gap-3 border-2 border-solid md:w-1/5 xsm:p-5">
 					<div>Message me here</div>
 					<div className="flex gap-3">
 						<MailOutlineIcon />
-						<a href="mailto:abhinav.gupta@outlook.de">abhinav</a>
+						<a href="mailto:abhinav.gupta@outlook.de">E-Mail</a>
 					</div>
 				</div>
 			</div>
