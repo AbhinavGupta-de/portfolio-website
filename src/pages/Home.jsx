@@ -18,6 +18,7 @@ const Home = () => {
 				<Projects />
 				<Skills />
 			</div>
+			{/* TODO Fix the Height here!! */}
 			<div className="h-screen">
 				<AboutMe />
 				<Contact />

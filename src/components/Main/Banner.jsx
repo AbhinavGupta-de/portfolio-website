@@ -14,10 +14,10 @@ const Banner = () => {
 				<div className="flex">
 					<a
 						href="https://flowcv.com/resume/qtgor8jl3s"
-						className="font-semibold text-inherit border-[#27ae60] border-[1px] rounded-3xl items-start overflow-hidden  border-solid mt-5 hidden md:block"
+						className="font-semibold text-inherit border-[#27ae60] border-[1px] rounded-3xl items-start overflow-hidden  border-solid mt-5 hidden md:block p-3"
 					>
 						<spam className="p-3">Download Resume</spam>
-						<spam className="bg-[#27ae60] item-center justify-center rounded-3xl p-1">
+						<spam className="bg-[#27ae60] item-center justify-center rounded-3xl p-1 font-light">
 							<DownloadIcon />
 						</spam>
 					</a>
