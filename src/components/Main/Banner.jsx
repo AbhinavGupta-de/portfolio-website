@@ -6,7 +6,7 @@ const Banner = () => {
 		<div className="flex md:flex-row xsm:flex-col md:h-[50%] md:mt-[190px] md:justify-between">
 			<div>
 				<Typography sx={{ fontSize: '32px' }}>
-					Abhinav Gupta - Frontend Developer
+					Abhinav Gupta - <spam className="text-[#27ae60]">Frontend Developer</spam>
 				</Typography>
 				<Typography sx={{ color: '#ABB2BF', marginTop: '10px' }}>
 					Crafting Engaging User Exerpience using React, Tailwind and more.
