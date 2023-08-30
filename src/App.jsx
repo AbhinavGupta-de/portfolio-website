@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 
 function App() {
 	return (
-		<div className="w-4/5 m-auto">
+		<div className="md:w-4/5 m-auto">
 			<BrowserRouter>
 				<Header />
 				<div className="mt-8">

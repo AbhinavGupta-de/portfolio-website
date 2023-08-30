@@ -14,7 +14,7 @@ const Home = () => {
 				<Banner />
 				<Quote />
 			</div>
-			<div className="h-screen">
+			<div className="h-fit mb-10">
 				<Projects />
 				<Skills />
 			</div>

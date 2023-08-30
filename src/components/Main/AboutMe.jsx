@@ -1,4 +1,5 @@
 import Pic from '../../assets/images/abhinav.png';
+import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
 	return (
@@ -17,6 +18,12 @@ const AboutMe = () => {
 				I can develop responsive websites from scratch and raise them into modren user-friendly web expereinces.`}</div>
 					<div>{`I am currently leanring MERN Stack. Diving deep in the world of web dev with the latest technologies 
 				including Typescript, Tailwind CSS, React, Next JS, Express JS, Mongo DB and much more.`}</div>
+
+					<Link to="/about">
+						<div className="flex justify-start items-center gap-2 border border-solid border-[#27ae60] p-[0.30rem] w-fit mt-8">
+							Read More <i className="fa-sharp fa-solid fa-arrow-right"></i>
+						</div>
+					</Link>
 				</div>
 				<div className="hidden w-2/5 h-2/5 md:flex justify-end">
 					<img src={Pic} alt="" className="w-2/4" />
