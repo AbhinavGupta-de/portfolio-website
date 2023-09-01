@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import ProjectCard from './ProjectCard';
-import MyTube from '../../assets/images/myTubeLogo.png';
+import MyTube from '../../assets/images/MyTubeLogo.png';
 import GymGenius from '../../assets/images/GymGeniusLogo.png';
 import Seating from '../../assets/images/SSTSeatingPlan.png';
 
