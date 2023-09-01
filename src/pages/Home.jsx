@@ -10,7 +10,7 @@ import {
 const Home = () => {
 	return (
 		<div className="">
-			<div className="h-screen">
+			<div className="h-fit mb-10">
 				<Banner />
 				<Quote />
 			</div>
