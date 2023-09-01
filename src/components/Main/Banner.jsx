@@ -29,7 +29,8 @@ const Banner = () => {
 				</div>
 			</div>
 			<div className="lg:w-2/5 flex flex-col xsm:h-fit xsm:justify-center xsm:items-center">
-				<img src={Abhinav} alt="banner" className="xl:w-3/5 lgd:w-full lg:w-full" />
+				{/* Removed the image for now.  */}
+				<img src={''} alt="banner" className="xl:w-3/5 lgd:w-full lg:w-full" />
 			</div>
 		</div>
 	);

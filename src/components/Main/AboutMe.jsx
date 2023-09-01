@@ -26,7 +26,8 @@ const AboutMe = () => {
 					</Link>
 				</div>
 				<div className="hidden w-2/5 h-2/5 md:flex justify-end">
-					<img src={Pic} alt="" className="w-2/4" />
+					{/* Removed the image for now */}
+					<img src={''} alt="" className="w-2/4" />
 				</div>
 			</div>
 		</div>
