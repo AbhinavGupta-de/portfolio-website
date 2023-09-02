@@ -9,6 +9,8 @@ import Contact from './Main/Contact';
 import FunFacts from './AboutMe/FunFacts';
 import MainContent from './AboutMe/MainContent';
 import SkillsAbout from './AboutMe/SkillsAbout';
+import CompleteProjects from './Works/CompleteProjects';
+import SmallProjects from './Works/SmallProjects';
 
 export {
 	Header,
@@ -22,4 +24,6 @@ export {
 	FunFacts,
 	MainContent,
 	SkillsAbout,
+	CompleteProjects,
+	SmallProjects,
 };
