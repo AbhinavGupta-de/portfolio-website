@@ -6,9 +6,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Logo from '../../assets/images/Logo.png';
 
-// TODO - Make the header responsive
-// TODO - Add a dropdown kind of button to make it responsive
-
 const Header = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
