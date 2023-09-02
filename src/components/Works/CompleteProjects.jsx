@@ -55,7 +55,7 @@ const CompleteProjects = () => {
 					title="Task Forge | Todo App"
 					description="A simple web app to make Todo list and manage your tasks."
 					hostLink="https://taskforge.netlify.app/"
-					githubLink=""
+					githubLink="https://github.com/AbhinavGupta-de/todo-app"
 				/>
 				<ProjectCard
 					imgSrc={Gold}
