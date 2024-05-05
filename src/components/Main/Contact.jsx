@@ -13,8 +13,7 @@ const Contact = () => {
 			<div className="flex md:flex-row xsm:flex-col gap-5 mt-5 p-5 justify-between">
 				<div className="md:w-2/5">
 					<div className="text-[#bbbdc0] text-[16px]">
-						{`I'm interested in internship or remote job opportunities(including
-				freelancing) and would love to hear from you!`}
+						{`I'm interested in internships and job opportunities and would love to hear about them.`}
 						<br></br>
 					</div>
 
@@ -24,11 +23,15 @@ const Contact = () => {
 					</div>
 				</div>
 
-				<div className="flex flex-col items-center  gap-3 border-2 border-solid md:w-1/5 xsm:p-5">
+				<div className="flex flex-col items-center gap-3 border-2 border-solid md:w-1/5 xsm:p-5">
 					<div>Message me here</div>
 					<div className="flex gap-3">
 						<MailOutlineIcon />
 						<a href="mailto:abhinav.gupta@outlook.de">E-Mail</a>
+					</div>
+					<div className="flex gap-3 items-center justify-center">
+						<i className="fa-brands fa-discord"></i>
+						abhi_
 					</div>
 				</div>
 			</div>

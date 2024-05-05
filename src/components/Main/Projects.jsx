@@ -13,7 +13,7 @@ const Projects = () => {
 					Projects
 				</h1>
 				<hr className="w-1/5 border-[1.5px] border-solid border-[#27ae60] mt-[8px]"></hr>
-				<Link to="/projects">
+				<Link to="/works">
 					<div className="text-[16px] flex gap-2 justify-center items-center">
 						View All <i className="fa-sharp fa-solid fa-arrow-right"></i>{' '}
 					</div>
