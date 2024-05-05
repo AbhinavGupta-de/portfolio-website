@@ -1,20 +1,20 @@
 import { Typography } from '@mui/material';
 import DownloadIcon from '@mui/icons-material/Download';
-import Abhinav from '../../assets/images/AbhinavFullPic.png';
+import Abhinav from '../../assets/images/abhinav.png';
 
 const Banner = () => {
 	return (
 		<div className="flex lg:flex-row flex-col  lg:justify-between h-2/5">
 			<div className="md:mt-[200px]">
 				<Typography sx={{ fontSize: '32px' }}>
-					Abhinav Gupta - <spam className="text-[#27ae60]">Frontend Developer</spam>
+					Abhinav Gupta -{' '}
+					<spam className="text-[#27ae60]">Full Stack Developer</spam>
 				</Typography>
 				<Typography sx={{ color: '#ABB2BF', marginTop: '10px' }}>
-					Crafting Engaging User Exerpience using React, Tailwind and more.
+					Versatile Full Stack Engineer: Bridging Frontend and Backend Excellence
 				</Typography>
 				<Typography sx={{ color: '#ABB2BF', marginTop: '10px' }}>
-					Currently working on developing full MERN stack skills and learning more
-					about the backend.
+					Currently advancing my skill in Java Backend Development
 				</Typography>
 				<div className="flex">
 					<a
@@ -30,7 +30,7 @@ const Banner = () => {
 			</div>
 			<div className="lg:w-2/5 flex flex-col xsm:h-fit xsm:justify-center xsm:items-center">
 				{/* Removed the image for now.  */}
-				<img src={''} alt="banner" className="xl:w-3/5 lgd:w-full lg:w-full" />
+				<img src={Abhinav} alt="banner" className="xl:w-3/5 lgd:w-full lg:w-full" />
 			</div>
 		</div>
 	);
