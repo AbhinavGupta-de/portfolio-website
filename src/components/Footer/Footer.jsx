@@ -12,14 +12,16 @@ const Footer = () => {
 						<div>Abhinav Gupta</div>
 						<div className="text-[#9fa5b2]">abhinav.gupta@outlook.de</div>
 					</div>
-					<div>Frontend Developer and Aspiring Software Engineer</div>
+					<div>
+						AI & Blockchain Enthusiast | Web Developer | Aspiring Software Engineer
+					</div>
 				</div>
 
 				{/* Media Links */}
 				<div className="flex flex-col xsm:mt-5 md:mt-10 xsm:justify-center xsm:items-center">
 					<div>Media</div>
 					<div className="flex md:justify-between gap-2">
-						<a href="https://www.linkedin.com/in/abhinav-gupta-a6422026b">
+						<a href="https://www.linkedin.com/in/abhinavgpt">
 							<LinkedInIcon />
 						</a>
 						<a href="https://github.com/AbhinavGupta-de">
