@@ -7,13 +7,16 @@ const ProjectCard = ({
 	description,
 	hostLink,
 	githubLink,
+	inProgress = false,
 }) => {
 	return (
 		<div className="flex border-2 border-solid border-[#787c8a] flex-col mb-10">
 			<div className="flex border-b-2 border-solid border-[#787c8a]">
-				<Link to={hostLink}>
-					<img src={imgSrc} alt="Project image" />
-				</Link>
+				{hostLink === '' ? null : (
+					<Link to={hostLink}>
+						<img src={imgSrc} alt="Project image" />
+					</Link>
+				)}
 			</div>
 			<div>
 				<div className="border-b-2 border-solid border-[#787c8a] p-1 text-[16px] text-[#bbbdc0]">
@@ -29,10 +32,16 @@ const ProjectCard = ({
 					)}
 
 					{githubLink === '' ? null : (
-						<div className="border border-solid border-[#787c8a] p-[0.3rem] w-fit m-2">
+						<div className="border border-solid border-[#4865ca] p-[0.3rem] w-fit m-2">
 							<a href={githubLink}>Github</a>
 						</div>
 					)}
+
+					{inProgress ? (
+						<div className="border border-solid border-[#cfd664] p-[0.3rem] w-fit m-2">
+							In Progress
+						</div>
+					) : null}
 				</div>
 			</div>
 		</div>

@@ -1,4 +1,11 @@
-import { CompleteProjects, SmallProjects } from '../components';
+import {
+	BackendProjects,
+	DataScience,
+	FrontendProjects,
+	FullStackProjects,
+	ReactNativeProject,
+	SmallProjects,
+} from '../components';
 
 const Works = () => {
 	return (
@@ -10,7 +17,11 @@ const Works = () => {
 				<div className="mt-2">List of my projects</div>
 			</div>
 
-			<CompleteProjects />
+			<FrontendProjects />
+			<BackendProjects />
+			<FullStackProjects />
+			<ReactNativeProject />
+			<DataScience />
 			<SmallProjects />
 		</div>
 	);

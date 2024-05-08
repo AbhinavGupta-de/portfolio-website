@@ -9,8 +9,12 @@ import Contact from './Main/Contact';
 import FunFacts from './AboutMe/FunFacts';
 import MainContent from './AboutMe/MainContent';
 import SkillsAbout from './AboutMe/SkillsAbout';
-import CompleteProjects from './Works/CompleteProjects';
+import FrontendProjects from './Works/FrontendProjects';
+import FullStackProjects from './Works/FullStackProjects';
+import DataScience from './Works/DataScience';
+import BackendProjects from './Works/BackendProjects';
 import SmallProjects from './Works/SmallProjects';
+import ReactNativeProject from './Works/ReactNativeProject';
 
 export {
 	Header,
@@ -24,6 +28,10 @@ export {
 	FunFacts,
 	MainContent,
 	SkillsAbout,
-	CompleteProjects,
+	FrontendProjects,
+	FullStackProjects,
+	DataScience,
+	BackendProjects,
 	SmallProjects,
+	ReactNativeProject,
 };
