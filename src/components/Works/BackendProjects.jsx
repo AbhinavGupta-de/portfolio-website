@@ -14,7 +14,6 @@ const BackendProjects = () => {
 					description="This project is a microservice for an e-commerce website. It includes user authentication, product management, order management, and payment processing. It is built using Java, Spring Boot, Hibernate, and PostgreSQL."
 					hostLink=""
 					githubLink="https://github.com/AbhinavGupta-de/FakeStoreSpring"
-					inProgress={true}
 				/>
 				<ProjectCard
 					imgSrc=""

@@ -25,16 +25,16 @@ const FullStackProjects = () => {
 					skills="React Axios SpringBoot Java MongoDB"
 					title="Gold | A movie reviewing app"
 					description="It's a website where we can review movies and give them ratings. THE BACKEND WAS NEVER DEPLOYED THAT'S WHY	IT'S NOT WORKING."
-					hostLink="https://gold-movie-api.netlify.app/"
+					hostLink=""
 					githubLink="https://github.com/AbhinavGupta-de/movie-gold-v1"
 				/>
 				<ProjectCard
-					imgSrc={Commenz}
+					imgSrc=""
 					skills="React Node Express MongoDB"
 					title="BookStore | A app to add and view books"
 					description="
 					This is a simple book store application that allows users to add books, edit books, delete books to the store and also allows users to view the books in the store. This application is built using MERN stack."
-					hostLink="https://books-store-abhi.netlify.app"
+					hostLink=""
 					githubLink="https://github.com/AbhinavGupta-de/book-store-backend"
 				/>
 			</div>

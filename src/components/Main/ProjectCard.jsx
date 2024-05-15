@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link } from 'react-router-dom';
 
 const ProjectCard = ({
@@ -12,7 +13,7 @@ const ProjectCard = ({
 	return (
 		<div className="flex border-2 border-solid border-[#787c8a] flex-col mb-10">
 			<div className="flex border-b-2 border-solid border-[#787c8a]">
-				{hostLink === '' ? null : (
+				{imgSrc === '' ? null : (
 					<Link to={hostLink}>
 						<img src={imgSrc} alt="Project image" />
 					</Link>

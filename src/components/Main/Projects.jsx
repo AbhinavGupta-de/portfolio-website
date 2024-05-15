@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import ProjectCard from './ProjectCard';
 import MyTube from '../../assets/images/MyTubeLogo.png';
 import Commenz from '../../assets/images/commenz.png';
+import Bhashini from '../../assets/images/bhashini.png';
 
 const Projects = () => {
 	return (
@@ -32,13 +33,12 @@ const Projects = () => {
 					imgSrc={Commenz}
 					skills="Java SpringBoot React Spring AI Selenium"
 					title="Commenz | Feedback Synthesis Tool"
-					description="
-					This project is a web app that summarizes reviews using NLP. It scrapes and extracts key points, ratings, and reviews, presenting them in a user-friendly interface. It helps users save time and make informed decisions online."
+					description="This project is a web app that summarizes reviews using NLP. It scrapes and extracts key points, ratings, and reviews, presenting them in a user-friendly interface. It helps users save time and make informed decisions online."
 					hostLink="https://commenz.netlify.app/"
 					githubLink="https://github.com/abhinavgupta-de/commenz-java"
 				/>
 				<ProjectCard
-					imgSrc={Commenz}
+					imgSrc={Bhashini}
 					skills="Javascript Typescript Node Prisma React"
 					title="Bhashini | Language Translation Tool"
 					description="Facilitating seamless translation into regional languages for Indian users through a comprehensive suite of tools including a Chrome Extension, Node Webpack, JavaScript Utility, and an Internship Portal for collaboration and contribution."

@@ -18,7 +18,7 @@ const Banner = () => {
 				</Typography>
 				<div className="flex">
 					<a
-						href="https://flowcv.com/resume/qtgor8jl3s"
+						href="https://flowcv.com/resume/isvav0gscs"
 						className="font-semibold text-inherit border-[#27ae60] border-[1px] rounded-3xl items-start overflow-hidden  border-solid mt-5 hidden md:block p-3"
 					>
 						<spam className="p-3">Download Resume</spam>

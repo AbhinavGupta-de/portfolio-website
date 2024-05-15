@@ -6,7 +6,7 @@ import Projects from './Main/Projects';
 import Quote from './Main/Quote';
 import Skills from './Main/Skills';
 import Contact from './Main/Contact';
-import FunFacts from './AboutMe/FunFacts';
+import Experience from './AboutMe/Experience';
 import MainContent from './AboutMe/MainContent';
 import SkillsAbout from './AboutMe/SkillsAbout';
 import FrontendProjects from './Works/FrontendProjects';
@@ -15,6 +15,9 @@ import DataScience from './Works/DataScience';
 import BackendProjects from './Works/BackendProjects';
 import SmallProjects from './Works/SmallProjects';
 import ReactNativeProject from './Works/ReactNativeProject';
+import Certification from './AboutMe/Certification';
+import Education from './AboutMe/Education';
+import Programs from './AboutMe/Programs';
 
 export {
 	Header,
@@ -25,7 +28,7 @@ export {
 	Quote,
 	Skills,
 	Contact,
-	FunFacts,
+	Experience,
 	MainContent,
 	SkillsAbout,
 	FrontendProjects,
@@ -34,4 +37,7 @@ export {
 	BackendProjects,
 	SmallProjects,
 	ReactNativeProject,
+	Certification,
+	Education,
+	Programs,
 };

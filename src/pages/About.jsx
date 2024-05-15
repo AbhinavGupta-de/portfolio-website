@@ -1,4 +1,11 @@
-import { FunFacts, MainContent, SkillsAbout } from '../components';
+import {
+	Certification,
+	Education,
+	Experience,
+	MainContent,
+	Programs,
+	SkillsAbout,
+} from '../components';
 
 const About = () => {
 	return (
@@ -11,7 +18,10 @@ const About = () => {
 			</div>
 			<MainContent />
 			<SkillsAbout />
-			<FunFacts />
+			<Education />
+			<Experience />
+			<Certification />
+			<Programs />
 		</div>
 	);
 };

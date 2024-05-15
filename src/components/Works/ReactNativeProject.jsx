@@ -17,6 +17,24 @@ const ReactNativeProject = () => {
 					githubLink=""
 					inProgress={true}
 				/>
+				<ProjectCard
+					imgSrc=""
+					skills="React Native Expo"
+					title="Telegram Clone | Messaging App"
+					description="This project is a messaging app built using React Native Expo. It includes features like sending messages, receiving messages, and user authentication. It also includes features like sending images and videos."
+					hostLink=""
+					githubLink=""
+					inProgress={true}
+				/>
+				<ProjectCard
+					imgSrc=""
+					skills="React Native Expo"
+					title="NFT Marketplace | NFT Marketplace App"
+					description="This project is an NFT marketplace app built using React Native Expo. It includes features like listing NFTs, buying NFTs, and selling NFTs. It also includes features like user authentication and payment processing."
+					hostLink=""
+					githubLink=""
+					inProgress={true}
+				/>
 			</div>
 		</div>
 	);
