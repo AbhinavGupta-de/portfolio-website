@@ -18,6 +18,7 @@ import ReactNativeProject from './Works/ReactNativeProject';
 import Certification from './AboutMe/Certification';
 import Education from './AboutMe/Education';
 import Programs from './AboutMe/Programs';
+import ComputersCanvas from './canvas/Computers';
 
 export {
 	Header,
@@ -40,4 +41,5 @@ export {
 	Certification,
 	Education,
 	Programs,
+	ComputersCanvas,
 };

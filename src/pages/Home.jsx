@@ -1,6 +1,7 @@
 import {
 	AboutMe,
 	Banner,
+	ComputersCanvas,
 	Contact,
 	Projects,
 	Quote,
@@ -9,10 +10,13 @@ import {
 
 const Home = () => {
 	return (
-		<div className="">
+		<div>
 			<div className="h-fit mb-10">
 				<Banner />
-				<Quote />
+				<div className="h-[600px] flex justify-center items-center my-[-100px] flex-col mb-[60px]">
+					<ComputersCanvas />
+					<Quote />
+				</div>
 			</div>
 			<div className="h-fit mb-10">
 				<Projects />
