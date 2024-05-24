@@ -9,10 +9,10 @@ const AboutMe = () => {
 					<spam className="text-[#27ae60]">#</spam>
 					About Me
 				</h1>
-				<hr className="xsm:w-1/5 md:w-2/5 border-[1.5px] border-solid border-[#27ae60] md:mt-[8px]"></hr>
+				<hr className="w-1/5 md:w-2/5 border-[1.5px] border-solid border-[#27ae60] md:mt-[8px]"></hr>
 			</div>
 			<div className="md:flex justify-between">
-				<div className="flex gap-3 flex-col md:w-3/5 my-10 p-5 text-[#bbbdc0] text-[16px] xsm:w-full">
+				<div className="flex gap-3 flex-col md:w-3/5 my-10 p-5 text-[#bbbdc0] text-[16px] w-full">
 					<div>{`Hello, I'm Abhinav Gupta!`}</div>
 					<div>{`I'm currently a undergraduate Computer Science student in Bangalore, India.
 				 I can create full stack applications with beautiful UI and database connectivity.`}</div>

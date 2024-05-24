@@ -13,7 +13,7 @@ const FrontendProjects = () => {
 				<spam className="text-[#27ae60]">#</spam>frontend projects
 			</div>
 
-			<div className="flex gap-5 flex-col lg:flex-row mt-10 p-5">
+			<div className="flex gap-5 flex-col mt-10 p-5 md:flex-row">
 				<ProjectCard
 					imgSrc={MyTube}
 					skills="HTML CSS Tailwind Material UI React"

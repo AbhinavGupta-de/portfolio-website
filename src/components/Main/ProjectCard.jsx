@@ -33,7 +33,7 @@ const ProjectCard = ({
 					)}
 
 					{githubLink === '' ? null : (
-						<div className="border border-solid border-[#4865ca] p-[0.3rem] w-fit m-2">
+						<div className="border border-solid border-[#489aca] p-[0.3rem] w-fit m-2">
 							<a href={githubLink}>Github</a>
 						</div>
 					)}

@@ -6,7 +6,7 @@ const BackendProjects = () => {
 			<div className="text-[32px]">
 				<spam className="text-[#27ae60]">#</spam>backend projects
 			</div>
-			<div className="flex gap-5 xsm:flex-col mt-10 p-5">
+			<div className="flex gap-5 flex-col mt-10 p-5 md:flex-row">
 				<ProjectCard
 					imgSrc=""
 					skills="Java Spring SpringBoot Hibernate JPA PostgreSQL Docker"

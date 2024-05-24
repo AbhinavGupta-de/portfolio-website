@@ -9,7 +9,7 @@ const FullStackProjects = () => {
 				<spam className="text-[#27ae60]">#</spam>fullstack projects
 			</div>
 
-			<div className="flex gap-5 xsm:flex-col mt-10 p-5">
+			<div className="flex gap-5 flex-col mt-10 p-5 md:flex-row">
 				<ProjectCard
 					imgSrc={Commenz}
 					skills="Java SpringBoot React Spring AI Selenium"

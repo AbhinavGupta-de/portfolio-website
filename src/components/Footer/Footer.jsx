@@ -4,11 +4,11 @@ import CopyrightIcon from '@mui/icons-material/Copyright';
 
 const Footer = () => {
 	return (
-		<div>
-			<div className="flex md:flex-row xsm:flex-col border-t-2 border-solid justify-between gap-2">
+		<div className="p-5">
+			<div className="flex md:flex-row flex-col border-t-2 border-solid justify-between gap-2">
 				{/* About Me */}
 				<div className="flex flex-col gap-1 mt-10">
-					<div className="flex md:flex-row xsm:flex-col justify-between">
+					<div className="flex md:flex-row flex-col justify-between">
 						<div>Abhinav Gupta</div>
 						<div className="text-[#9fa5b2]">abhinav.gupta@outlook.de</div>
 					</div>
@@ -18,7 +18,7 @@ const Footer = () => {
 				</div>
 
 				{/* Media Links */}
-				<div className="flex flex-col xsm:mt-5 md:mt-10 xsm:justify-center xsm:items-center">
+				<div className="flex flex-col mt-5 md:mt-10 justify-center items-center">
 					<div>Media</div>
 					<div className="flex md:justify-between gap-2">
 						<a href="https://www.linkedin.com/in/abhinavgpt">

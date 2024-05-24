@@ -20,7 +20,7 @@ const Projects = () => {
 				</Link>
 			</div>
 
-			<div className="flex gap-5 xsm:flex-col mt-10 p-5">
+			<div className="flex gap-5 flex-col mt-10 p-5 md:flex-row">
 				<ProjectCard
 					imgSrc={MyTube}
 					skills="HTML CSS Tailwind Material UI React"
