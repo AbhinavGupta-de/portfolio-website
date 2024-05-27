@@ -1,10 +1,10 @@
-import MyTube from '../../assets/images/MyTubeLogo.png';
-import GymGenius from '../../assets/images/GymGeniusLogo.png';
-import Seating from '../../assets/images/SSTSeatingPlan.png';
+import MyTube from '../../assets/images/MyTubeLogo.webp';
+import GymGenius from '../../assets/images/GymGeniusLogo.webp';
+import Seating from '../../assets/images/SSTSeatingPlan.webp';
 import ProjectCard from '../Main/ProjectCard';
-import dailyPulse from '../../assets/images/dailyPulse.png';
-import TaskForge from '../../assets/images/taskForge.png';
-import Visualizer from '../../assets/images/Visualizer.png';
+import dailyPulse from '../../assets/images/dailyPulse.webp';
+import TaskForge from '../../assets/images/taskForge.webp';
+import Visualizer from '../../assets/images/Visualizer.webp';
 
 const FrontendProjects = () => {
 	return (

@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import ProjectCard from './ProjectCard';
-import MyTube from '../../assets/images/MyTubeLogo.png';
-import Commenz from '../../assets/images/commenz.png';
-import Bhashini from '../../assets/images/bhashini.png';
+import MyTube from '../../assets/images/MyTubeLogo.webp';
+import Commenz from '../../assets/images/commenz.webp';
+import Bhashini from '../../assets/images/bhashini.webp';
 
 const Projects = () => {
 	return (

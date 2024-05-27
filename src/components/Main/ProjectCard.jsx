@@ -15,7 +15,7 @@ const ProjectCard = ({
 			<div className="flex border-b-2 border-solid border-[#787c8a]">
 				{imgSrc === '' ? null : (
 					<Link to={hostLink}>
-						<img src={imgSrc} alt="Project image" />
+						<img rel="preload" src={imgSrc} alt="Project image" />
 					</Link>
 				)}
 			</div>

@@ -1,6 +1,6 @@
 import { Typography } from '@mui/material';
 import DownloadIcon from '@mui/icons-material/Download';
-import Abhinav from '../../assets/images/abhinav.png';
+import Abhinav from '../../assets/images/abhinav.webp';
 
 const Banner = () => {
 	return (

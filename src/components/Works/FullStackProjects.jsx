@@ -1,6 +1,6 @@
-import Gold from '../../assets/images/Gold.png';
+import Gold from '../../assets/images/Gold.webp';
 import ProjectCard from '../Main/ProjectCard';
-import Commenz from '../../assets/images/commenz.png';
+import Commenz from '../../assets/images/commenz.webp';
 
 const FullStackProjects = () => {
 	return (

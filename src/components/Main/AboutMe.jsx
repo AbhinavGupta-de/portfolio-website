@@ -1,4 +1,4 @@
-import Pic from '../../assets/images/secondPic.png';
+import Pic from '../../assets/images/secondPic.webp';
 import { Link } from 'react-router-dom';
 
 const AboutMe = () => {

@@ -1,4 +1,4 @@
-import Abhinav from '../../assets/images/test.png';
+import Abhinav from '../../assets/images/test.webp';
 
 const MainContent = () => {
 	return (
