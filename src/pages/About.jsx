@@ -4,7 +4,7 @@ import {
 	Experience,
 	MainContent,
 	Programs,
-	SkillsAbout,
+	Skills,
 } from '../components';
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
 				<div className="mt-2">Who am I?</div>
 			</div>
 			<MainContent />
-			<SkillsAbout />
+			<Skills />
 			<Education />
 			<Experience />
 			<Certification />

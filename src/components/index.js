@@ -8,7 +8,6 @@ import Skills from './Main/Skills';
 import Contact from './Main/Contact';
 import Experience from './AboutMe/Experience';
 import MainContent from './AboutMe/MainContent';
-import SkillsAbout from './AboutMe/SkillsAbout';
 import FrontendProjects from './Works/FrontendProjects';
 import FullStackProjects from './Works/FullStackProjects';
 import DataScience from './Works/DataScience';
@@ -31,7 +30,6 @@ export {
 	Contact,
 	Experience,
 	MainContent,
-	SkillsAbout,
 	FrontendProjects,
 	FullStackProjects,
 	DataScience,
