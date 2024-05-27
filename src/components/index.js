@@ -16,7 +16,6 @@ import SmallProjects from './Works/SmallProjects';
 import ReactNativeProject from './Works/ReactNativeProject';
 import Certification from './AboutMe/Certification';
 import Education from './AboutMe/Education';
-import Programs from './AboutMe/Programs';
 import ComputersCanvas from './canvas/Computers';
 
 export {
@@ -38,6 +37,5 @@ export {
 	ReactNativeProject,
 	Certification,
 	Education,
-	Programs,
 	ComputersCanvas,
 };

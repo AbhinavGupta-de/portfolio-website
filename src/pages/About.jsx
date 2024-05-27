@@ -3,7 +3,6 @@ import {
 	Education,
 	Experience,
 	MainContent,
-	Programs,
 	Skills,
 } from '../components';
 
@@ -21,7 +20,6 @@ const About = () => {
 			<Education />
 			<Experience />
 			<Certification />
-			<Programs />
 		</div>
 	);
 };
